@@ -24,8 +24,8 @@ grid;
 vt = look_up(device, 'VT', 'VGS', 0.6, 'L', L);
 figure;
 plot(vt, L)
-ylabel('V_t [V]')
-xlabel('L [um]')
+xlabel('V_t [V]')
+ylabel('L [um]')
 grid;
 
 % Plot ft against gm_id for different L
